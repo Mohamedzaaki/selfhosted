@@ -1,4 +1,11 @@
 name : Testing self hosted runner
 on:
   workflow_dispatch:
+jobs:
+  testing:
+    runs-on: [ self-hosted, linux, x64 ]
+    steps:
+      name: echo
+      run: 
+        echo "hello from self hosted runner"
 
