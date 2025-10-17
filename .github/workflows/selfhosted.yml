@@ -1,0 +1,4 @@
+name : Testing self hosted runner
+on:
+  workflow_dispatch:
+
